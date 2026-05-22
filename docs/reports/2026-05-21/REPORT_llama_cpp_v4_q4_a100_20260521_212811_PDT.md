@@ -4,7 +4,7 @@ Timestamp: 2026-05-21 21:28:11 PDT
 
 ## Objective
 
-Validate the recommended GGUF path from `GGUF_quantization_llama.cpp.md` for
+Validate the recommended GGUF path from `../../notes/GGUF_quantization_llama.cpp.md` for
 DeepSeek V4 Flash on Modal `A100-80GB:4`:
 
 - llama.cpp fork: `https://github.com/cchuter/llama.cpp.git`

@@ -275,17 +275,17 @@ A100 is SM80. It does not have the native FP8 path used on Ada/Hopper/Blackwell.
 
 ## Source Reports In This Repo
 
-- `REPORT_llama_cpp_v4_q4_a100_20260521_212811_PDT.md`
-- `REPORT_llama_cpp_v4_q4_fastctx_a100_20260521_215926_PDT.md`
-- `REPORT_llama_cpp_v4_q4_optimization_flags_a100_20260521_223340_PDT.md`
-- `REPORT_llama_cpp_v4_q4_additional_flags_a100_20260521_225300_PDT.md`
-- `REPORT_llama_cpp_v4_q4_reddit_a100_20260521_232955_PDT.md`
-- `DSV4_INT4_MODAL.md`
-- `CHANGELOG_deepseek_v4_flash_base_int4.md`
-- `CHANGELOG_deepseek_v4_flash_official.md`
-- `DS4_MODAL.md`
-- `LLAMA_CPP_V4_MODAL.md`
-- `GGUF_quantization_llama.cpp.md`
+- `../reports/2026-05-21/REPORT_llama_cpp_v4_q4_a100_20260521_212811_PDT.md`
+- `../reports/2026-05-21/REPORT_llama_cpp_v4_q4_fastctx_a100_20260521_215926_PDT.md`
+- `../reports/2026-05-21/REPORT_llama_cpp_v4_q4_optimization_flags_a100_20260521_223340_PDT.md`
+- `../reports/2026-05-21/REPORT_llama_cpp_v4_q4_additional_flags_a100_20260521_225300_PDT.md`
+- `../reports/2026-05-21/REPORT_llama_cpp_v4_q4_reddit_a100_20260521_232955_PDT.md`
+- `../notes/DSV4_INT4_MODAL.md`
+- `../changelog/CHANGELOG_deepseek_v4_flash_base_int4.md`
+- `../changelog/CHANGELOG_deepseek_v4_flash_official.md`
+- `../notes/DS4_MODAL.md`
+- `../notes/LLAMA_CPP_V4_MODAL.md`
+- `../notes/GGUF_quantization_llama.cpp.md`
 
 ## Future Agent Instructions
 
@@ -310,14 +310,14 @@ Constraints:
   best decode about 12.995 tok/s thinking off and 12.941 tok/s thinking on.
 
 Local files to read first:
-- BENCHMARK_REPORT_*.md, newest timestamp
-- REPORT_llama_cpp_v4_q4_additional_flags_a100_20260521_225300_PDT.md
-- REPORT_llama_cpp_v4_q4_reddit_a100_20260521_232955_PDT.md
+- docs/benchmarks/BENCHMARK_REPORT_*.md, newest timestamp
+- docs/reports/2026-05-21/REPORT_llama_cpp_v4_q4_additional_flags_a100_20260521_225300_PDT.md
+- docs/reports/2026-05-21/REPORT_llama_cpp_v4_q4_reddit_a100_20260521_232955_PDT.md
 - llama_cpp_v4_q4_a100_modal.py
 - llama_cpp_v4_q4_peer512_a100_modal.py
-- DSV4_INT4_MODAL.md
-- CHANGELOG_deepseek_v4_flash_official.md
-- DS4_MODAL.md
+- docs/notes/DSV4_INT4_MODAL.md
+- docs/changelog/CHANGELOG_deepseek_v4_flash_official.md
+- docs/notes/DS4_MODAL.md
 
 Research current upstream state before changing code:
 - cchuter/llama.cpp, branch feat/v4-port-cuda
