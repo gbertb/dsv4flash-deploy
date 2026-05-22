@@ -1,0 +1,95 @@
+# macOS and editor metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs and local run outputs
+*.log
+logs/
+runs/
+outputs/
+tmp/
+temp/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# ML experiment trackers
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+
+# Hugging Face and model caches
+.cache/
+huggingface/
+hf_cache/
+transformers_cache/
+datasets/
+
+# Model weights, checkpoints, and quantized artifacts
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.tflite
+*.gguf
+*.ggml
+*.mar
+checkpoints/
+checkpoint-*/
+models/
+model/
+weights/
+artifacts/
+
+# Deployment and cloud tooling state
+.modal/
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+*.pem
+*.key
+*.crt
+
+# CUDA and profiler outputs
+*.nvprof
+*.nsys-rep
+*.qdrep
+*.sqlite
